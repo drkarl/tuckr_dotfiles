@@ -15,6 +15,13 @@ for _, lsp in ipairs(servers) do
   }
 end
 
+lspconfig.pyright.setup {
+  on_attach = on_attach,
+  on_init = on_init,
+  capabilities = capabilities,
+  filetypes = { "python" },
+}
+
 -- configuring single server, example: typescript
 -- lspconfig.ts_ls.setup {
 --   on_attach = on_attach,

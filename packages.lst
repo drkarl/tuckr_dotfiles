@@ -1,0 +1,57 @@
+# dotfiles management, better than stow
+tuckr-git
+
+#wsl
+wsl-open
+
+#dev
+sdkman
+lazydocker
+yq
+
+# Everything manager
+asdf
+
+#Paginators
+less
+bat
+
+# File manager
+yazi
+
+# These augment yazi
+#Markdown glowfier
+glow 
+#Decompress tool
+ouch
+#Read meta info
+exiftool
+# awk, sed, cut, join, and sort for data formats such as CSV, TSV, JSON, JSON
+miller
+
+# ls replacement
+eza
+
+zoxide
+
+# rust tooling
+rustup
+
+# Http tool
+xh
+
+# Magical shell history
+atuin
+
+#Protect and discover secrets using gitleaks
+gitleaks
+
+
+;git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
+;git clone https://github.com/jimeh/tmuxifier.git ~/.tmuxifier
+;git clone https://github.com/mfussenegger/nvim-jdtls.git ~/.config/nvim/pack/plugins/start/nvim-jdtls
+;git clone https://github.com/yazi-rs/flavors.git
+;git clone https://github.com/yazi-rs/plugins.git
+;git clone https://github.com/Reledia/glow.yazi.git ~/.config/yazi/plugins/glow.yazi
+;git clone https://github.com/ndtoan96/ouch.yazi.git ~/.config/yazi/plugins/ouch.yazi
+;git clone https://github.com/Sonico98/exifaudio.yazi.git ~/.config/yazi/plugins/exifaudio.yazi
